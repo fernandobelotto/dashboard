@@ -12,7 +12,7 @@ import UsersPage from "../pages/users/users.page";
 export default function AppRoutes() {
   return (
     <>
-          <DarkSwitch />
+      <DarkSwitch />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LoginPage />} />

@@ -13,7 +13,7 @@ import { BackButton } from "../../components/BackButton";
 export default function ForgetPasswordPage() {
   return (
     <>
-    <BackButton />
+      <BackButton />
       <Flex
         minH={"100vh"}
         align={"center"}

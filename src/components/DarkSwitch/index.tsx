@@ -1,9 +1,9 @@
-import { useColorMode, IconButton } from '@chakra-ui/react'
-import { SunIcon, MoonIcon } from '@chakra-ui/icons'
+import { useColorMode, IconButton } from "@chakra-ui/react";
+import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 
 export const DarkSwitch = () => {
-  const { colorMode, toggleColorMode } = useColorMode()
-  const isDark = colorMode === 'dark'
+  const { colorMode, toggleColorMode } = useColorMode();
+  const isDark = colorMode === "dark";
   return (
     <IconButton
       size="sm"
@@ -14,5 +14,5 @@ export const DarkSwitch = () => {
       aria-label="Toggle Theme"
       onClick={toggleColorMode}
     />
-  )
-}
+  );
+};
